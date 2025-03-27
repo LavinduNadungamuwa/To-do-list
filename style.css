@@ -10,14 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #e1d3b1;
 }
+
 .container {
-    background: white;
+    background: rgb(242, 237, 227);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    width: 500px;
 }
 
 ul {
@@ -29,12 +30,13 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    background: #eee;
-    margin: 5px 0;
-    border-radius: 5px;
+    background: #eae7d4;
+    margin: 10px 0;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
-.completeed {
+.completed {
     text-decoration: line-through;
     color: gray;
 }
